@@ -20,7 +20,7 @@ go-to: sandbox_menu
 - @editsyndicalist: Edit Syndicalist Faction
 - @editironfront: Edit Arditi del Popolo
 - @editparamilitary: Edit Paramilitary Groups
-- @editreichswehr: Edit Reichswehr and Police
+- @editreichswehr: Edit Army and Police
 
 @editresources
 
