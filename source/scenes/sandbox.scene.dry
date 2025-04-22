@@ -849,7 +849,7 @@ Q.rg_strength += 200;
 
 Raised Red Guard strength by 200.
 
-@lowerrbstrength
+@lowerrgstrength
 go-to: editparamilitary
 on-arrival: {!
 Q.rg_strength -= 200;
@@ -857,7 +857,7 @@ Q.rg_strength -= 200;
 
 Lowered Red Guard strength by 200.
 
-@raiserbmilitancy
+@raisergmilitancy
 go-to: editparamilitary
 on-arrival: {!
 Q.rg_militancy += 0.15;
@@ -865,7 +865,7 @@ Q.rg_militancy += 0.15;
 
 Raised Red Guard militancy.
 
-@lowerrbmilitancy
+@lowerrgmilitancy
 go-to: editparamilitary
 on-arrival: {!
 Q.rg_militancy -= 0.15;
@@ -873,7 +873,7 @@ Q.rg_militancy -= 0.15;
 
 Lowered Red Guard militancy.
 
-@banrb
+@banrg
 go-to: editparamilitary
 view-if: rg_banned == 0
 on-arrival: {!
@@ -882,7 +882,7 @@ Q.rg_banned = 1;
 
 Banned the Red Guard.
 
-@unbanrb
+@unbanrg
 go-to: editparamilitary
 view-if: rg_banned != 0
 on-arrival: {!
